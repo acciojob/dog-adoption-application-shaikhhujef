@@ -1,13 +1,39 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 
 <head>
+	<meta charset="utf-8">
+	<meta phone="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Dog Adoption Application</title>
 	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+	<form action="target_url" method="GET/POST" attribute="value">
+		
+		<label for="name">Name:</label>
+	    <input type="text" id="name" name="name" placeholder="Name"><br>
+
+		<label for="phone">Phone Number:</label>
+	    <input type="text" id="phone" name="phone" placeholder="Phone Number"><br>
+
+		<label for="address">Address:</label>
+	    <input type="text" id="address" name="address" placeholder="Address"><br>	
+
+		<label for="checkbox">Have you ever lived with a Dog before?</label>
+	    <input type="checkbox" id="checkbox" name="address"><br>
+
+		<label for="multiSelect">Please select your preferred breeds:</label>
+		<select id="multiSelect" name="multiSelect">
+			<option value="" disabled selected>--Please choose an option--</option>
+	        <option value="puppy">Puppy</option>
+	        <option value="sonu">Sonu</option>
+	        <option value="pillu">Pillu</option>
+		</select><br>
+
+		<button type="submit">Submit</button>
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
